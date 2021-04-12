@@ -1,0 +1,99 @@
+body p {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    justify-content: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 20px;
+    cursor: pointer;
+}
+
+nav button {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    cursor: pointer;
+}
+
+main {
+    width: 50%;
+    margin: 1em auto;
+    text-align: center;
+}
+
+main img {
+    height: 90px;
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    border-radius: 35px;
+    border: 1px solid rgb(209, 208, 208);
+    transition: box-shadow 100ms;
+    Outline: none;
+}
+
+.buttons_cap {
+    margin-top: 2em;
+}
+
+.buttons_cap button {
+    padding: 1em;
+    border: none;
+}
+
+.lang {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: #111;
+}
+
+.lang a {
+    margin-left: 5px;
+    color: #1a0dab;
+}
+
+footer {
+    background-color: rgb(233, 231, 231);
+}
+
+.footer_top {
+    padding: 1em;
+}
+
+.footer_bottom {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid rgb(216, 215, 215);
+}
+
+.left a {
+    margin-right: 1em;
+}
+
+.right a {
+    margin-right: 1em;
+}
